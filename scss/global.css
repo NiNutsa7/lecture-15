@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+body header {
+  margin-left: 137px;
+  margin-top: 21px;
+  display: flex;
+  justify-content: first baseline;
+}
+body header ul {
+  display: flex;
+  justify-content: first baseline;
+}
+body header ul a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 35px;
+}
+body h1 {
+  margin-top: 42px;
+  margin-bottom: 27px;
+  margin-left: 137px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .d1 {
+  display: inline-block;
+  height: 186px;
+}
+body .d1 .p2 {
+  margin-left: 138px;
+  margin-top: 27px;
+  margin-right: 40px;
+  display: inline-block;
+}
+body .d1 .p3 {
+  margin-top: 27px;
+  margin-right: 40px;
+  display: inline-block;
+}
+body .mydiv2 {
+  margin-left: 138px;
+  width: 361px;
+  height: 171px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8A8787;
+  background-color: #FFFFFF;
+  padding: 50px 30px;
+  vertical-align: top;
+  margin-right: 40px;
+  display: inline-block;
+  position: relative;
+}
+body .mydiv3 {
+  width: 361px;
+  height: 171px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8A8787;
+  background-color: #FFFFFF;
+  padding: 50px 30px;
+  vertical-align: top;
+  margin-right: 40px;
+  display: inline-block;
+  position: relative;
+}
+body .myp1 {
+  margin-bottom: 15px;
+}
+body .ellipse {
+  margin-top: 40px;
+  margin-left: 40px;
+  vertical-align: top;
+}
+body .myp2 {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+body h4 {
+  position: absolute;
+  top: -80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body p {
+  position: relative;
+  top: 45%;
+  left: 10%;
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body h6 {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section2 {
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 27px;
+  margin-top: 50px;
+}
+
+.leftdiv {
+  margin-left: 138px;
+  display: inline-block;
+  margin-right: 45px;
+  width: 758px;
+  vertical-align: top;
+}
+
+.div1 {
+  display: inline-block;
+  margin-bottom: 42px;
+  position: relative;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p5 {
+  margin-bottom: 42px;
+  width: 100%;
+}
+
+.p6 {
+  width: 100%;
+}
+
+.rightdiv {
+  display: inline-block;
+  vertical-align: top;
+  width: 362px;
+}
+
+.img {
+  margin-bottom: 98px;
+}
+
+.img1 {
+  margin-bottom: 103px;
+  width: 100%;
+}
+
+.img2 {
+  width: 100%;
+}
+
+footer {
+  height: 201px;
+  background-color: #243043;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footerdiv {
+  margin-top: 59px;
+}
+footer .mya {
+  margin-bottom: 14px;
+  color: #818687;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h5 {
+  margin-top: 59px;
+  color: #FFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  margin-top: 58px;
+  width: 38px;
+  height: 40px;
+}/*# sourceMappingURL=global.css.map */
