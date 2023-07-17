@@ -1,5 +1,5 @@
 body {
-    background-color: #F1F1F1;
+    background-color: $color1;
     header {
         margin-left: 137px;
         margin-top: 21px;
@@ -9,7 +9,7 @@ body {
             display: flex;
             justify-content: first baseline;
             a {
-                color: #000;
+                color: $color2;
                 font-family: Roboto;
                 font-size: 11px;
                 font-style: normal;
@@ -23,7 +23,7 @@ body {
         margin-top: 42px;
         margin-bottom: 27px;
         margin-left: 137px;
-        color: #000;
+        color: $color2;
         font-family: 'Roboto', sans-serif;
         font-size: 24px;
         font-style: normal;
@@ -56,8 +56,8 @@ body {
         line-height: 12px;
         letter-spacing: 0em;
         text-align: left;
-        color: #8A8787;
-        background-color: #FFFFFF;
+        color: $color3;
+        background-color: $color4;
         padding: 50px 30px;
         vertical-align: top;
         margin-right: 40px;
@@ -73,8 +73,8 @@ body {
         line-height: 12px;
         letter-spacing: 0em;
         text-align: left;
-        color: #8A8787;
-        background-color: #FFFFFF;
+        color: $color3;
+        background-color: $color4;
         padding: 50px 30px;
         vertical-align: top;
         margin-right: 40px;
@@ -101,7 +101,7 @@ body {
                 top: -80%;
                 left: 35%;
                 transform: translate(-50%, -50%);
-                color: #FFF;
+                color: $color8;
                 font-family: Roboto;
                 font-size: 20px;
                 font-style: normal;
@@ -112,7 +112,7 @@ body {
                 position: relative;
                 top: 45%;
                 left: 10%;
-                color: #8A8787;
+                color: $color3;
                 font-family: Roboto;
                 font-size: 10px;
                 font-style: normal;
@@ -120,7 +120,7 @@ body {
                 line-height: normal;
             }
             h6 {
-                color: #8A8787;
+                color: $color3;
                 font-family: Roboto;
                 font-size: 10px;
                 font-style: normal;
@@ -138,7 +138,7 @@ body {
             font-weight: 800;
             font-size: 24px;
             line-height: 28px;
-            color: #000000;
+            color: $color5;
             margin-bottom: 27px;
             margin-top: 50px;
         }
@@ -164,7 +164,7 @@ body {
             font-weight: 700;
             font-size: 20px;
             line-height: 23px;
-            color: #FFFFFF;
+            color: $color4;
             position: absolute;
             top: 45%;
             left: 50%;
@@ -201,16 +201,18 @@ body {
 
         footer {
             height: 201px;
-            background-color: #243043;
+            background-color: $color6;
             width: 100%;
             display: flex;
             justify-content: space-around;
             .footerdiv{
                 margin-top: 59px;
             }
-            .mya {
+            footer li {
                 margin-bottom: 14px;
-                color: #818687;
+            }
+            .mya {
+                color: $color7;
                 font-family: 'Roboto', sans-serif;
                 font-size: 12px;
                 font-style: normal;
@@ -220,7 +222,7 @@ body {
         }
         h5 {
             margin-top: 59px;
-            color: #FFF;
+            color: $color8;
             font-family: 'Roboto', sans-serif;
             font-size: 12px;
             font-style: normal;
